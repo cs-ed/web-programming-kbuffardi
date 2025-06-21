@@ -3,14 +3,81 @@
   <head>
     <title>CSED 501</title>
     <meta name="keywords" content="Computer science education, CSED, Chico State">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>CSED 501</h1>
+    <h1 id="pageTitle">CSED 501</h1>
     <h2>a course by Kevin Buffardi</h2>
     <h3>Instructor details</h3>
+    <p id="quote_space"></p>
+    <button id="new_quote">Get New Quote</button>
     <p>To see information about your instructor, see his website, <a href="https://learnbyfailure.com/">LearnByFailure.com</a></p>
     <img src="kbuffardi.jpg" alt="A professor, Kevin Buffardi, in a sports coat" />
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Hours</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>10 - 11am</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>1 - 2pm</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>4 - 5pm</td>
+      </tr>
+    </table>
+    <h3>Learning Outcomes</h3>
+    <div class="outcome_blocks"> 
+      <span class="verbs">Read &amp; predict</span> an algorithm's behavior
+    </div>
+    <div class="outcome_blocks" > 
+      <span class="verbs">Describe</span> data representations of different types of information
+    </div>
+    <div class="outcome_blocks"> 
+      <span class="verbs">Analyze</span> code and evaluate its adherence to a programming language syntax and grammar
+    </div>
+    <div class="outcome_blocks"> 
+      <span class="verbs">Identify &amp; debug</span> code for its faults, or "bugs"
+    </div>
+    <div class="outcome_blocks"> 
+      <span class="verbs">Analyze</span> a problem for how it can be solved algorithmically
+    </div>
+    <div class="outcome_blocks"> 
+      <span class="verbs">Apply</span> a higher-level programming language to implement an algorithm
+    </div>
+    <div class="outcome_blocks"> 
+      <span class="verbs">Design &amp; create</span> solutions to problems using a higher-level programming language
+    </div>
+    <div class="outcome_blocks"> 
+      <span class="verbs">Discuss</span> how people interact with a computer program and its implications
+    </div>
+    <h3>Personal Learning Goals</h3>
+    <div id="my_goals">
+    </div>
+    <input type="text" id="goal_entry" size="50" maxlength="100" />
+    <button id="add_goal">Add Goal</button>
+    <span id="goal_error" class="errors"></span>
+    <h3>Course Content</h3>
     <p>This is where I will <i>start describing content for my course, <b>CSED 501</b></i>.</p>
     <p>The course schedule will look like the following:</p>
+    <ol>
+      <li>Common Programming Concepts</li>
+      <li>Block-based Programming</li>
+      <li>Web Programming</li>
+      <li>Python Fundamentals</li>
+      <li>Advanced Python</li>
+      <li>Data Analysis with Python</li>
+    </ol>
+    <h3>Completing Work</h3>
+    <p>
+      All lessons and assignments need to be completed in sequential order. For most quizzes, you will need to score at least an 80%.
+      If you score &lt;80%, you may study the material again and re-take the quiz until you have mastered the material.
+    </p>
   </body>
 </html>
